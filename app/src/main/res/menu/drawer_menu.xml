@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_register"
+            android:icon="@drawable/ic_register"
+            android:title="Register"/>
+        <item
+            android:id="@+id/nav_totalrequest"
+            android:icon="@drawable/ic_totalrequests"
+            android:title="Total Requests"/>
+        <item
+            android:id="@+id/nav_acceptedrequest"
+            android:icon="@drawable/ic_acceptedrequests"
+            android:title="Accepted Requests"/>
+        <item
+            android:id="@+id/nav_declinedrequest"
+            android:icon="@drawable/ic_declinedrequests"
+            android:title="Declined Requests"/>
+        <item
+            android:id="@+id/nav_aboutus"
+            android:icon="@drawable/ic_aboutus"
+            android:title="About Us"/>
+        <item
+            android:id="@+id/nav_faq"
+            android:icon="@drawable/ic_faq"
+            android:title="FAQ's"/>
+    </group>
+</menu>
